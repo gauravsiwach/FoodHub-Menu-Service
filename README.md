@@ -488,7 +488,7 @@ curl -X POST https://localhost:7161/graphql \
 
 ### 📋 Planned
 
-- Event-driven integration
+- Event-driven integration 
 - Advanced patterns (CQRS, Event Sourcing)
 
 ---
