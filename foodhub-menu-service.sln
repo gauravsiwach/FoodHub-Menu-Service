@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodHub.Api", "src\FoodHub.Api\FoodHub.Api.csproj", "{71F25B65-299E-467A-A901-CCA027047922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodHub.Menu.Application", "src\FoodHub.Menu.Application\FoodHub.Menu.Application.csproj", "{19F418B9-25C7-4F37-AC4E-9BC0269670F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodHub.Menu.Domain", "src\FoodHub.Menu.Domain\FoodHub.Menu.Domain.csproj", "{C3185D71-DBFC-412D-A1ED-104EDD979885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodHub.Menu.Infrastructure", "src\FoodHub.Menu.Infrastructure\FoodHub.Menu.Infrastructure.csproj", "{C2564A96-318E-40E0-BEF1-C337258A15B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodHub.Menu.Application.Tests", "test\FoodHub.Menu.Application.Tests\FoodHub.Menu.Application.Tests.csproj", "{8BD6F71C-F8F0-41F5-B968-47B3DD47C74D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodHub.Menu.Domain.Tests", "test\FoodHub.Menu.Domain.Tests\FoodHub.Menu.Domain.Tests.csproj", "{73E67C6E-1805-40E2-8816-2B057003EC4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71F25B65-299E-467A-A901-CCA027047922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F25B65-299E-467A-A901-CCA027047922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F25B65-299E-467A-A901-CCA027047922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F25B65-299E-467A-A901-CCA027047922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F418B9-25C7-4F37-AC4E-9BC0269670F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F418B9-25C7-4F37-AC4E-9BC0269670F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F418B9-25C7-4F37-AC4E-9BC0269670F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F418B9-25C7-4F37-AC4E-9BC0269670F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3185D71-DBFC-412D-A1ED-104EDD979885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3185D71-DBFC-412D-A1ED-104EDD979885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3185D71-DBFC-412D-A1ED-104EDD979885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3185D71-DBFC-412D-A1ED-104EDD979885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2564A96-318E-40E0-BEF1-C337258A15B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2564A96-318E-40E0-BEF1-C337258A15B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2564A96-318E-40E0-BEF1-C337258A15B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2564A96-318E-40E0-BEF1-C337258A15B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD6F71C-F8F0-41F5-B968-47B3DD47C74D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD6F71C-F8F0-41F5-B968-47B3DD47C74D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD6F71C-F8F0-41F5-B968-47B3DD47C74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD6F71C-F8F0-41F5-B968-47B3DD47C74D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E67C6E-1805-40E2-8816-2B057003EC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E67C6E-1805-40E2-8816-2B057003EC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E67C6E-1805-40E2-8816-2B057003EC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E67C6E-1805-40E2-8816-2B057003EC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
